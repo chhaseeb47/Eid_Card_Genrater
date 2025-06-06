@@ -1,0 +1,57 @@
+css
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card {
+  width: 90%;
+  max-width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  background-image: url('https://i.ibb.co/3YCKvYYk/7ece042f63b112f4.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.wishText {
+  font-size: 18px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  text-shadow: 1px 1px 3px black;
+}
+
+.regards {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
